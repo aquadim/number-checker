@@ -10,6 +10,11 @@ namespace number_checker
     {
         static void Main(string[] args)
         {
+            
+            
+            int output= Calculate( mas, num);
+                Console.WriteLine($"В массиве {output} раз встречается число");
+
         }
     }
 }
