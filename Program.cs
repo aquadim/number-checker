@@ -12,8 +12,8 @@ namespace number_checker
         {
             
             
-            int output= Calculate( mas, num);
-                Console.WriteLine($"В массиве {output} раз встречается число");
+            int output= Calculate( mas, num); // переменная обьявлена
+                Console.WriteLine($"В массиве {output} раз встречается число"); // вывод числа
 
         }
     }
