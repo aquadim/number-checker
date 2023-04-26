@@ -24,6 +24,11 @@ namespace number_checker
 
         static void Main(string[] args)
         {
+            
+            
+            int output= Calculate( mas, num); // переменная обьявлена
+                Console.WriteLine($"В массиве {output} раз встречается число"); // вывод числа
+
         }
     }
 }
